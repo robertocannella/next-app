@@ -1,17 +1,16 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 
-const HomePage = () =>{
-
-
+const AboutPage = () => {
+    console.log("running index component")
     return (
+
         <React.Fragment>
             <NavBar/>
             <div >
-                <h1>Our Home Page!</h1>
+                <h1>Our About Page!</h1>
             </div>
         </React.Fragment>
-
     )
 }
-export default HomePage
+export default AboutPage

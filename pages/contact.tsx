@@ -1,17 +1,15 @@
-import React from "react";
+import React from "react"
 import NavBar from "../components/NavBar";
 
-const HomePage = () =>{
-
-
+const ContactPage = () =>{
     return (
         <React.Fragment>
             <NavBar/>
             <div >
-                <h1>Our Home Page!</h1>
+                <h1>Our Contact Page!</h1>
             </div>
         </React.Fragment>
 
     )
 }
-export default HomePage
+export default ContactPage
